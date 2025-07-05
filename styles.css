@@ -1,0 +1,21 @@
+#intro {
+    background-color: #ffe0cc;
+    
+}
+
+a {
+    color: #4d1f00;
+}
+
+.description h1 {
+    color: #4d1f00;
+}
+
+.information {
+    background-color: #ffa366;
+    border: solid 1px #4d1f00;
+}
+
+.information h2 {
+    color: #331400 ;
+} 
