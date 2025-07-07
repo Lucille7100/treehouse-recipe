@@ -1,21 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
 #intro {
     background-color: #ffe0cc;
-    
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: 2px solid #4d1f00;
 }
 
-a {
+#intro h2 {
+    font-weight: 1000;
+}
+
+a, h1, h2 {
     color: #4d1f00;
 }
 
-.description h1 {
-    color: #4d1f00;
+header, main {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+img {
+    max-height: 500px;
+    max-width: 300px;
+    padding: 15px;
+    border: 2px solid #4d1f00;
+    margin: 30px;
 }
 
 .information {
     background-color: #ffa366;
     border: solid 1px #4d1f00;
+    padding: 5px 15px;
+    border-radius: 10px;
 }
-
-.information h2 {
-    color: #331400 ;
-} 
