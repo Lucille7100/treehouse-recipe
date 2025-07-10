@@ -2,6 +2,19 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    line-height: 2;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    background-color: #4d1f00;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
 }
 
 #intro {
@@ -9,6 +22,10 @@ body {
     padding: 5px 15px;
     border-radius: 10px;
     border: 2px solid #4d1f00;
+}
+
+h1 {
+    text-align: center;
 }
 
 #intro h2 {
@@ -20,7 +37,7 @@ a, h1, h2 {
 }
 
 header, main {
-    max-width: 1500px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -29,7 +46,8 @@ img {
     max-width: 300px;
     padding: 15px;
     border: 2px solid #4d1f00;
-    margin: 30px;
+    display: block;
+    margin: 40px auto;
 }
 
 .information {
