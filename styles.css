@@ -1,10 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+a {
+    text-decoration: none;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     line-height: 2;
 }
 
+#body_home {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+#nav_home {
+    display: flex;
+    justify-content: flex-start;
+}
 nav {
     display: flex;
     justify-content: space-around;
@@ -55,4 +68,15 @@ img {
     border: solid 1px #4d1f00;
     padding: 5px 15px;
     border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    background-color: #4d1f00;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
 }
