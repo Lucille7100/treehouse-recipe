@@ -6,6 +6,7 @@ a {
 body {
     font-family: "Roboto", sans-serif;
     line-height: 2;
+    background-color: green;
 }
 
 nav {
