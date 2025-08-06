@@ -6,7 +6,13 @@ a {
 body {
     font-family: "Roboto", sans-serif;
     line-height: 2;
-    background-color: green;
+}
+
+.home {
+    background-image: url(images/image2-resize_0.png.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 nav {
@@ -36,7 +42,11 @@ h1 {
     font-weight: 1000;
 }
 
-a, h1, h2 {
+h1 {
+    color: blue;
+}
+
+a, h2 {
     color: #4d1f00;
 }
 
